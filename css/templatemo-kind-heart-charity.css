@@ -1415,7 +1415,7 @@ blockquote::before {
 .carousel-frame {
   width: 70%;
   position: relative; 
-  margin-bottom: 20px;
+  margin-bottom: 40px;
 }
 
 .gallery-caption p, 
@@ -1661,6 +1661,10 @@ blockquote::before {
   .carousel-frame {
     width: 90%;
     margin-bottom: 0;
+  }
+  .carousel-container h1 {
+    font-size: 30px;
+    margin: 5px;
   }
 
   .gallery-section .carousel-inner {
