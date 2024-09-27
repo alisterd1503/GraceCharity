@@ -665,6 +665,11 @@ strong {
   background-size: cover;
 }
 
+.about-section h1 {
+  color: var(--secondary-color);
+  margin-bottom: 80px;
+}
+
 .about-section .row {
   margin-bottom:50px;
 }
@@ -704,6 +709,14 @@ strong {
   line-height: normal;
 }
 
+/*---------------------------------------
+  Missions Section             
+-----------------------------------------*/
+
+.missions-section h1 {
+  color: var(--secondary-color);
+  margin-bottom: 40px;
+}
 
 /*---------------------------------------
   VOLUNTEER              
@@ -1647,6 +1660,14 @@ blockquote::before {
     min-height: 520px;
   }
 
+  .about-section h1 {
+    margin-bottom: 10px;
+  }
+
+  .missions-section h1 {
+    margin-bottom: 10px;
+  }
+
   .hero-section h1 {
     font-size: 25px;
   }
@@ -1676,6 +1697,10 @@ blockquote::before {
   .gallery-section .carousel-inner {
     max-width: 100%;
     margin: 0;
+  }
+
+  #copyright-text {
+    margin-bottom: 10px;
   }
 }
 
