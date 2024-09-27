@@ -1435,10 +1435,11 @@ blockquote::before {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   border: 2px solid #44525d;
   position: relative; /* Ensure the parent has relative positioning */
+  margin-bottom: 80px;
 }
 
 .gallery-caption {
-  margin-bottom: 50px;
+  margin-bottom: 80px;
 }
 
 .gallery-caption p, 
@@ -1696,6 +1697,7 @@ blockquote::before {
 
   .carousel-frame {
     width: 90%;
+    margin-bottom: 0;
   }
 
   .gallery-section .carousel-inner {
