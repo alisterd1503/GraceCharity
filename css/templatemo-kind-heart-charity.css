@@ -623,8 +623,8 @@ strong {
   background-color: var(--secondary-color);
   border-radius: var(--border-radius-large);
   background-size: 60% 60%;
-  width: 80px;
-  height: 80px;
+  width: 40px;
+  height: 40px;
   opacity: 0;
   transition: all 0.5s;
 }
@@ -1472,7 +1472,6 @@ blockquote::before {
   margin: 0;                         /* Remove any margins */
   padding: 0;                        /* Remove any padding */
 }
-
 
 
 /*---------------------------------------
