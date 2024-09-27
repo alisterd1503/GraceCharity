@@ -566,6 +566,10 @@ strong {
   position: relative;
 }
 
+.hero-section h1 {
+  font-size: 45px;
+}
+
 .carousel:hover .carousel-control-next-icon, 
 .carousel:hover .carousel-control-prev-icon {
   opacity: 1;
@@ -1607,6 +1611,10 @@ blockquote::before {
   #hero-slide .carousel-item,
   .carousel-image {
     min-height: 520px;
+  }
+
+  .hero-section h1 {
+    font-size: 25px;
   }
 
   #hero-slide .carousel-caption {
