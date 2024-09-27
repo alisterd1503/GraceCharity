@@ -1667,6 +1667,12 @@ blockquote::before {
     margin: 5px;
   }
 
+  .carousel-control-next-icon, 
+  .carousel-control-prev-icon {
+    max-width: 20px;
+    max-height: 20px;
+  }
+
   .gallery-section .carousel-inner {
     max-width: 100%;
     margin: 0;
