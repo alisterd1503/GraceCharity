@@ -1388,7 +1388,6 @@ blockquote::before {
 /*---------------------------------------
   CONTACT FORM              
 -----------------------------------------*/
-
 .notification {
   position: fixed;
   top: 20px;
@@ -1402,6 +1401,77 @@ blockquote::before {
   opacity: 0;
   transition: opacity 0.5s;
 }
+
+/*---------------------------------------
+  GALLERY SECTION             
+-----------------------------------------*/
+.gallery-section {
+  text-align: center; /* Center text inside the section */
+}
+
+.carousel-container {
+  display: flex;
+  justify-content: center; /* Center carousels horizontally */
+}
+
+.gallery-section .carousel-inner {
+  max-width: 80%; /* Limit the width of the inner carousel */
+  margin: 0 auto; /* Center the inner carousel */
+}
+
+.gallery-section .carousel-item img {
+  width: 100%; /* Make the image fill the carousel item */
+  max-width: 90%; /* Set a max width to make it smaller than the full width */
+  margin: 0 auto; /* Center the image within the carousel item */
+  display: block; /* Ensure it's treated as a block element */
+  border-radius: 10px;
+  
+}
+
+.carousel-frame {
+  width: 70%;
+  background-color: #e9e9e9; 
+  border-radius: 20px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border: 2px solid #44525d;
+  position: relative; /* Ensure the parent has relative positioning */
+}
+
+.gallery-caption {
+  margin-bottom: 50px;
+}
+
+.gallery-caption p, 
+.gallery-caption p i {
+    color: black;
+}
+
+.carousel-container h1 {
+  margin-bottom: 30px;
+}
+
+.carousel-container h1 {
+  font-weight: bold;
+}
+
+/* Additional CSS to ensure proper display */
+.carousel img {
+  display: block; /* Ensure images behave correctly */
+  margin: auto; /* Center images */
+}
+
+.bottom-frame {
+  height: 60px;                      /* Height of the rectangle */
+  background-color: #44525d;           /* Background color of the rectangle */
+  position: absolute;                 /* Positioning for full control */
+  bottom: 0;                         /* Align to the bottom of the carousel frame */
+  left: 0;                           /* Align to the left edge */
+  right: 0;                          /* Align to the right edge */
+  border-radius: 0 0 10px 10px;     /* Optional: round the bottom corners */
+  margin: 0;                         /* Remove any margins */
+  padding: 0;                        /* Remove any padding */
+}
+
 
 
 /*---------------------------------------
