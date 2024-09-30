@@ -805,6 +805,10 @@ strong {
   padding-bottom: 100px;
 }
 
+.news-block {
+  margin-bottom: 50px;
+}
+
 .news-block-top {
   border-radius: var(--border-radius-medium);
   position: relative;
