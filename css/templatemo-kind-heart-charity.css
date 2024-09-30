@@ -794,8 +794,8 @@ strong {
   background-position: center;
   background-size: cover;
   position: relative;
-  padding-top: 150px;
-  padding-bottom: 150px;
+  padding-top: 100px;
+  padding-bottom: 100px;
 }
 
 .news-block-top {
@@ -1402,6 +1402,16 @@ blockquote::before {
 /*---------------------------------------
   GALLERY SECTION             
 -----------------------------------------*/
+.gallery-detail-header-section {
+  background-image: url('../images/group-people-volunteering-foodbank-poor-people.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
 .gallery-section {
   text-align: center; /* Center text inside the section */
 }
@@ -1559,11 +1569,6 @@ blockquote::before {
     opacity: 1;
     width: 60px;
     height: 60px;
-  }
-
-  .news-detail-header-section {
-    padding-top: 100px;
-    padding-bottom: 100px;
   }
 
   .cta-section::before {
