@@ -166,6 +166,13 @@ strong {
   font-weight: var(--font-weight-bold);
 }
 
+.more-content {
+  display: inline;
+}
+
+.read-more-btn {
+  display: none;
+}
 
 /*---------------------------------------
   SECTION               
@@ -1706,6 +1713,14 @@ blockquote::before {
 
   #copyright-text {
     margin-bottom: 10px;
+  }
+  .more-content {
+    display: none;
+  }
+  
+  .read-more-btn {
+    display: inline;
+    cursor: pointer; 
   }
 }
 
